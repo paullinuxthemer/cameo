@@ -6701,46 +6701,177 @@ headerbar .linked.raised:not(.vertical):not(.path-bar) > button.image-button, he
 
 /*(((((((((( Titlebuttons ))))))))))*/
 
-.titlebar button.titlebutton,
-headerbar button.titlebutton{
+headerbar.default-decoration button.titlebutton,
+.titlebar.default-decoration button.titlebutton {
 
-  border: none;text-shadow:none;box-shadow:none;padding: 0;-gtk-icon-shadow: none;
-  min-height:16px;min-width: 16px;
-  color:transparent;animation: none;
-  background-image: none;background-color: transparent;
-  margin-left:1px;margin-right:1px;
-  border-radius: 9999px;
-  background-image: image(-gtk-recolor(url('graphics/titlebutton-symbolic.svg')));
-  background-position: center center;background-repeat: no-repeat;}
-  
-.titlebar button.titlebutton.close,
-headerbar button.titlebutton.close{color:@close_color;}
- .titlebar button.titlebutton.close:hover,
-headerbar button.titlebutton.close:hover{color:shade(@close_color, 0.88);}
-  
-.titlebar button.titlebutton.minimize,
-headerbar button.titlebutton.minimize{color:@minimize_color;}  
-.titlebar button.titlebutton.minimize:hover,
-headerbar button.titlebutton.minimize:hover{color:shade(@minimize_color, 0.88);}
+  padding: 0 0px;
+  min-width: 18px;
+  min-height: 18px;
+  margin-bottom: 0.275rem;/*4px*/
+  box-shadow: none; }
 
+headerbar button.titlebutton,
+.titlebar button.titlebutton {
+
+  padding: 0;
+  margin-bottom: 0.275rem;/*4px;*/
+  min-height:18px;
+  min-width:18px;
+  box-shadow: none;
+  border-color: transparent;
+  background-color: transparent;
+  background-image: none;}
+
+headerbar button.titlebutton:hover,
+.titlebar button.titlebutton:hover,
+headerbar button.titlebutton:active,
+headerbar button.titlebutton:checked,
+.titlebar button.titlebutton:active,
+.titlebar button.titlebutton:checked {
+
+  color: transparent;
+  border-color: transparent;
+  background-color: transparent;}
+
+headerbar button.titlebutton.restore,
+headerbar button.titlebutton.close,
+headerbar button.titlebutton.maximize,
+headerbar button.titlebutton.minimize,
 .titlebar button.titlebutton.restore,
-headerbar button.titlebutton.restore, 
+.titlebar button.titlebutton.close,
 .titlebar button.titlebutton.maximize,
-headerbar button.titlebutton.maximize{color:@maximize_color;}
-  
-.titlebar button.titlebutton.restore:hover,
-headerbar button.titlebutton.restore:hover,   
-.titlebar button.titlebutton.maximize:hover,
-headerbar button.titlebutton.maximize:hover{color:shade(@maximize_color, 0.88);}
-   
-.titlebar button.titlebutton.minimize:backdrop,
-headerbar button.titlebutton.minimize:backdrop,
-.titlebar button.titlebutton.maximize:backdrop,
-headerbar button.titlebutton.maximize:backdrop,
-.titlebar button.titlebutton.restore:backdrop,
+.titlebar button.titlebutton.minimize {
+
+  color: transparent;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-width: 0; }
+
 headerbar button.titlebutton.restore:backdrop,
-..titlebar button.titlebutton.close:backdrop,
-headerbar button.titlebutton.close:backdrop{color:shade(@headerbar_color,1.1);}
+headerbar button.titlebutton.close:backdrop,
+headerbar button.titlebutton.maximize:backdrop,
+headerbar button.titlebutton.minimize:backdrop,
+.titlebar button.titlebutton.restore:backdrop,
+.titlebar button.titlebutton.close:backdrop,
+.titlebar button.titlebutton.maximize:backdrop,
+.titlebar button.titlebutton.minimize:backdrop {
+
+
+  opacity: 1; }
+
+headerbar button.titlebutton.close,
+.titlebar button.titlebutton.close {
+
+  background-image: -gtk-scaled(url("graphics/title-buttons-dark/titlebutton-close.svg"), url("graphics/title-buttons-dark/titlebutton-close@2.svg")); }
+
+headerbar button.titlebutton.close:backdrop,
+.titlebar button.titlebutton.close:backdrop {
+
+  background-image: -gtk-scaled(url("graphics/title-buttons-dark/titlebutton-close-backdrop.svg"), url("graphics/title-buttons-dark/titlebutton-close-backdrop@2.svg")); }
+
+headerbar button.titlebutton.close:hover,
+.titlebar button.titlebutton.close:hover {
+
+  background-image: -gtk-scaled(url("graphics/title-buttons-dark/titlebutton-close-hover.svg"), url("graphics/title-buttons-dark/titlebutton-close-hover@2.svg")); }
+
+headerbar button.titlebutton.close:active,
+.titlebar button.titlebutton.close:active {
+
+  background-image: -gtk-scaled(url("graphics/title-buttons-dark/titlebutton-close-active.svg"), url("graphics/title-buttons-dark/titlebutton-close-active@2.svg")); }
+
+headerbar button.titlebutton.maximize,
+.titlebar button.titlebutton.maximize {
+
+  background-image: -gtk-scaled(url("graphics/title-buttons-dark/titlebutton-maximize.svg"), url("graphics/title-buttons-dark/titlebutton-maximize@2.svg")); }
+
+headerbar button.titlebutton.maximize:backdrop,
+.titlebar button.titlebutton.maximize:backdrop {
+
+  background-image: -gtk-scaled(url("graphics/title-buttons-dark/titlebutton-maximize-backdrop.svg"), url("graphics/title-buttons-dark/titlebutton-maximize-backdrop@2.svg")); }
+
+headerbar button.titlebutton.maximize:hover,
+.titlebar button.titlebutton.maximize:hover {
+
+  background-image: -gtk-scaled(url("graphics/title-buttons-dark/titlebutton-maximize-hover.svg"), url("graphics/title-buttons-dark/titlebutton-maximize-hover@2.svg")); }
+
+headerbar button.titlebutton.maximize:active,
+.titlebar button.titlebutton.maximize:active {
+
+  background-image: -gtk-scaled(url("graphics/title-buttons-dark/titlebutton-maximize-active.svg"), url("graphics/title-buttons-dark/titlebutton-maximize-active@2.svg")); }
+
+headerbar button.titlebutton.minimize,
+.titlebar button.titlebutton.minimize {
+
+  background-image: -gtk-scaled(url("graphics/title-buttons-dark/titlebutton-minimize.svg"), url("graphics/title-buttons-dark/titlebutton-minimize@2.svg")); }
+
+headerbar button.titlebutton.minimize:backdrop,
+.titlebar button.titlebutton.minimize:backdrop {
+
+  background-image: -gtk-scaled(url("graphics/title-buttons-dark/titlebutton-minimize-backdrop.svg"), url("graphics/title-buttons-dark/titlebutton-minimize-backdrop@2.svg")); }
+
+headerbar button.titlebutton.minimize:hover,
+.titlebar button.titlebutton.minimize:hover {
+
+  background-image: -gtk-scaled(url("graphics/title-buttons-dark/titlebutton-minimize-hover.svg"), url("graphics/title-buttons-dark/titlebutton-minimize-hover@2.svg")); }
+
+headerbar button.titlebutton.minimize:active,
+.titlebar button.titlebutton.minimize:active {
+
+  background-image: -gtk-scaled(url("graphics/title-buttons-dark/titlebutton-minimize-active.svg"), url("graphics/title-buttons-dark/titlebutton-minimize-active@2.svg")); }
+
+headerbar button.titlebutton.restore,
+.titlebar button.titlebutton.restore {
+
+  background-image: -gtk-scaled(url("graphics/title-buttons-dark/titlebutton-restore.svg"), url("graphics/title-buttons-dark/titlebutton-restore@2.svg")); }
+
+headerbar button.titlebutton.restore:backdrop,
+.titlebar button.titlebutton.restore:backdrop {
+
+  background-image: -gtk-scaled(url("graphics/title-buttons-dark/titlebutton-restore-backdrop.svg"), url("graphics/title-buttons-dark/titlebutton-restore-backdrop@2.svg")); }
+
+headerbar button.titlebutton.restore:hover,
+.titlebar button.titlebutton.restore:hover {
+
+  background-image: -gtk-scaled(url("graphics/title-buttons-dark/titlebutton-restore-hover.svg"), url("graphics/title-buttons-dark/titlebutton-restore-hover@2.svg")); }
+
+headerbar button.titlebutton.restore:active,
+.titlebar button.titlebutton.restore:active {
+
+  background-image: -gtk-scaled(url("graphics/title-buttons-dark/titlebutton-restore-active.svg"), url("graphics/title-buttons-dark/titlebutton-restore-active@2.svg")); }
+
+.fullscreen headerbar button.titlebutton.maximize,
+.maximized headerbar button.titlebutton.maximize, .fullscreen
+.titlebar button.titlebutton.maximize,
+.maximized
+.titlebar button.titlebutton.maximize {
+  background-image: -gtk-scaled(url("graphics/title-buttons-dark/titlebutton-maximize.svg"), url("graphics/title-buttons-dark/titlebutton-maximize@2.svg"));
+}
+
+.fullscreen headerbar button.titlebutton.maximize:backdrop,
+.maximized headerbar button.titlebutton.maximize:backdrop, .fullscreen
+.titlebar button.titlebutton.maximize:backdrop,
+.maximized
+.titlebar button.titlebutton.maximize:backdrop {
+  background-image: -gtk-scaled(url("graphics/title-buttons-dark/titlebutton-maximize-backdrop.svg"), url("graphics/title-buttons-dark/titlebutton-maximize-backdrop@2.svg"));
+}
+
+.fullscreen headerbar button.titlebutton.maximize:hover,
+.maximized headerbar button.titlebutton.maximize:hover, .fullscreen
+.titlebar button.titlebutton.maximize:hover,
+.maximized
+.titlebar button.titlebutton.maximize:hover {
+  background-image: -gtk-scaled(url("graphics/title-buttons-dark/titlebutton-restore-hover.svg"), url("graphics/title-buttons-dark/titlebutton-restore-hover@2.svg"));
+}
+
+.fullscreen headerbar button.titlebutton.maximize:active,
+.maximized headerbar button.titlebutton.maximize:active, .fullscreen
+.titlebar button.titlebutton.maximize:active,
+.maximized
+.titlebar button.titlebutton.maximize:active {
+  background-image: -gtk-scaled(url("graphics/title-buttons-dark/titlebutton-restore-active.svg"), url("graphics/title-buttons-dark/titlebutton-restore-active@2.svg"));
+}
+
 /*******************************************************************/
 
 .nautilus-window.csd.background{
