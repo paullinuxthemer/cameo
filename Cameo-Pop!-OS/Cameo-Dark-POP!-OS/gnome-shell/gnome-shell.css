@@ -19,7 +19,7 @@
  */
 /* Global Values */
 
-@define-color color_accent #22917b;
+
 
 stage {
 
@@ -226,13 +226,13 @@ StEntry {
   color: #eeeeec;
   background-color: #2d2c2e;
   border-color: #202020;
-  selection-background-color: #22917b;
+  selection-background-color: #2f889e;
   selected-color: #fff; }
   
 StEntry:focus {
 
   border-color: #383838;
-  box-shadow: inset 0 0 0 1px #22917b; }
+  box-shadow: inset 0 0 0 1px #2f889e; }
     
 StEntry:insensitive {
 
@@ -317,15 +317,15 @@ StEntry StLabel.hint-text {
   -barlevel-background-color: #202020;
   -barlevel-border-width: 1px;
   -barlevel-border-color: #202020;
-  -barlevel-active-background-color: #22917b;/*#858585;*/
-  -barlevel-active-border-color: #22917b;/*#8a8a8a;*/
+  -barlevel-active-background-color: #2f889e;/*#858585;*/
+  -barlevel-active-border-color: #2f889e;/*#8a8a8a;*/
   -barlevel-overdrive-color: #b2161d;
   -barlevel-overdrive-border-color: #bc171e;
   -barlevel-overdrive-separator-width: 1px;
   -slider-handle-radius: 7px;
   -slider-handle-border-width: 1px;
-  -slider-handle-border-color:#22917b;/* #eeeeec;*/
-  color: #22917b; }
+  -slider-handle-border-color:#2f889e;/* #eeeeec;*/
+  color: #2f889e; }
   
 .slider:hover {
  
@@ -442,7 +442,7 @@ box-shadow: 0 3px 12px 1px rgba(0, 0, 0, 0.5);
   
 .popup-menu-item.selected {
 
-  background-color: #22917b;/*#22917b;*//*------------>Hovering in menu's*/
+  background-color: #2f889e;/*#2f889e;*//*------------>Hovering in menu's*/
   color: #ffffff;
   text-shadow: 0 1px rgba(0,0,0,0.6);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);  }
@@ -699,7 +699,7 @@ box-shadow: 0 3px 12px 1px rgba(0, 0, 0, 0.5);
   
 .calendar .calendar-month-label {
 
-  color: #22917b;/*#fafaf9;*/
+  color: #2f889e;/*#fafaf9;*/
   font-weight: bold;
   padding: 8px 0; }
     
@@ -749,7 +749,7 @@ box-shadow: 0 3px 12px 1px rgba(0, 0, 0, 0.5);
 .calendar .calendar-day-base:selected {
 
   color: white;
-  background-color: #22917b;/*#282828;*/ }
+  background-color: #2f889e;/*#282828;*/ }
   
 .calendar .calendar-day-base.calendar-day-heading {
 
@@ -777,19 +777,19 @@ box-shadow: 0 3px 12px 1px rgba(0, 0, 0, 0.5);
 
   font-weight: bold;
   border: 1px solid transparent;
-  background-color: #22917b;/*858585;*/
+  background-color: #2f889e;/*858585;*/
   color: #fff; }
   
 .calendar .calendar-today:hover, 
 .calendar .calendar-today:focus {
 
-  background-color: #22917b;
+  background-color: #2f889e;
   color: #fff; }
   
 .calendar .calendar-today:active, 
 .calendar .calendar-today:selected {
 
-  background-color: #22917b;
+  background-color: #2f889e;
   color: #fff; }
   
 .calendar .calendar-today:active:hover, 
@@ -797,7 +797,7 @@ box-shadow: 0 3px 12px 1px rgba(0, 0, 0, 0.5);
 .calendar .calendar-today:selected:hover, 
 .calendar .calendar-today:selected:focus {
 
-  background-color: #22917b;
+  background-color: #2f889e;
   color: #fff; }
   
 .calendar .calendar-day-with-events {
@@ -1462,7 +1462,7 @@ box-shadow: 0 3px 12px 1px rgba(0, 0, 0, 0.5);
   
 .nm-dialog-item:selected {
 
-    background-color: #22917b;
+    background-color: #2f889e;
     color: #fff;
     text-shadow:0 1px black; }
 
@@ -1661,7 +1661,7 @@ box-shadow: 0 3px 12px 1px rgba(0, 0, 0, 0.5);
 #panel .panel-button:checked {
   
   background-color: rgba(0, 0, 0, 0.01);
-  box-shadow: inset 0 -3px 0 0 #22917b; /*919191*/}
+  box-shadow: inset 0 -3px 0 0 #2f889e; /*919191*/}
     
  #panel .panel-button.clock-display:active, 
  #panel .panel-button.clock-display:overview, 
@@ -1676,7 +1676,7 @@ box-shadow: 0 3px 12px 1px rgba(0, 0, 0, 0.5);
 #panel .panel-button.clock-display:checked .clock {
     
   background-color: rgba(0, 0, 0, 0.01);
-  box-shadow: inset 0 -3px 0 0 #22917b; }
+  box-shadow: inset 0 -3px 0 0 #2f889e; }
   
   #panel .panel-status-indicators-box,
   #panel .panel-status-menu-box {
@@ -1773,7 +1773,7 @@ box-shadow: 0 3px 12px 1px rgba(0, 0, 0, 0.5);
   .search-entry:focus {
     padding: 6px 8px;
     border-style: solid;
-    border-color: #22917b;
+    border-color: #2f889e;
     color: #ffffff;
     box-shadow: inset 0 1px 2px 1px rgba(0, 0, 0, 0.2); }
   
@@ -1909,7 +1909,7 @@ box-shadow: 0 3px 12px 1px rgba(0, 0, 0, 0.5);
   height: 5px;
   width: 5px;
   border-radius: 5px;
-  background-color: #22917b;
+  background-color: #2f889e;
   margin-bottom: 1px; }
 
 .rename-folder-popup .rename-folder-popup-item {
@@ -1961,7 +1961,7 @@ box-shadow: 0 3px 12px 1px rgba(0, 0, 0, 0.5);
     box-shadow: inset 0 -2px #eeeeec; }
   .app-view-control:checked {
     color: #eeeeec;
-    box-shadow: inset 0 -2px #22917b; }
+    box-shadow: inset 0 -2px #2f889e; }
   .app-view-control:first-child {
     border-right-width: 0;
     border-radius: 0; }
@@ -2033,7 +2033,7 @@ box-shadow: 0 3px 12px 1px rgba(0, 0, 0, 0.5);
     height: 24px; }
 
 .workspace-thumbnail-indicator {
-  border: 3px solid #22917b;
+  border: 3px solid #2f889e;
   border-radius: 3px;
   padding: 0px; }
 
