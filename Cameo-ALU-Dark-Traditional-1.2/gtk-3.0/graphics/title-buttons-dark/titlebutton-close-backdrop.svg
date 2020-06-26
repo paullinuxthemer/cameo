@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="28"
+   height="20"
+   viewBox="0 0 7.4083333 5.2916665"
+   version="1.1"
+   id="svg1663"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="titlebutton-close-backdrop.svg">
+  <defs
+     id="defs1657" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="30.248457"
+     inkscape:cx="14.16205"
+     inkscape:cy="9.7714286"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g3841"
+     showgrid="true"
+     units="px"
+     inkscape:window-width="1566"
+     inkscape:window-height="751"
+     inkscape:window-x="50"
+     inkscape:window-y="86"
+     inkscape:window-maximized="0"
+     inkscape:measure-start="1,16"
+     inkscape:measure-end="1.02857,15.9429"
+     inkscape:document-rotation="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid815" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata1660">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-292.76669)">
+    <g
+       id="g3837"
+       transform="matrix(0.71264185,-0.70148238,0.70143814,0.7126868,-206.23386,86.208687)">
+      <g
+         id="g3841">
+        <g
+           id="g3845"
+           transform="matrix(0.8348758,-0.00788454,-0.00788454,0.83512569,3.4323055,50.119659)"
+           style="fill:#222222;fill-opacity:1">
+          <rect
+             transform="rotate(-1.1000002)"
+             ry="0.29397804"
+             rx="0.33333385"
+             y="292.75296"
+             x="-3.8093112"
+             height="4.2333384"
+             width="0.52916598"
+             id="rect3831"
+             style="fill:#222222;fill-opacity:1;stroke-width:0.264583" />
+          <rect
+             ry="0.29397795"
+             rx="0.33333385"
+             y="294.61877"
+             x="0"
+             height="0.52916664"
+             width="4.2333331"
+             id="rect3833"
+             style="fill:#222222;fill-opacity:1;stroke-width:0.264583" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
